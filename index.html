@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>casogan</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://i.pinimg.com/736x/91/10/a4/9110a4d82ee772310a99077a31aa73ed.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .container h1 {
+            margin: 20px 0;
+            font-size: 24px;
+        }
+        .container h2 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .buttons button:hover {
+            opacity: 0.8;
+        }
+        .yes-button {
+            background-color: #28a745;
+            color: white;
+        }
+        .no-button {
+            background-color: #dc3545;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/564x/79/d5/72/79d5721998d34d756d16c7fa45b198ac.jpg" alt="Imagen Especial">
+        <h1>Te mentí, este link no te lleva a la tarea</h1>
+        <h2>¿Maritza, te puedo hacer una pregunta?</h2>
+        <div class="buttons">
+            <button class="yes-button" onclick="location.href='page3.html'">Sip</button>
+            <button class="no-button" onclick="location.href='page2.html'">Not</button>
+        </div>
+    </div>
+</body>
+</html>
+
